@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(119,40,152);
+    background: linear-gradient(55deg, rgba(119,40,152,0.9136904761904762) 0%, rgba(148,50,101,1) 84%, rgba(3,3,76,0.9557072829131653) 100%) fixed; /* Fixa o gradiente de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    width: 60%; /* Reduce the width of the table */
+    margin: 50px auto; /* Center the table */
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.578); /* Sombreamento */
+    border-radius: 20px;
+    border: solid #ccc;
+}
+
+thead {
+    background-color: #f5f5f5;
+}
+
+th,
+td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 50px auto;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #fff;
+}
